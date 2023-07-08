@@ -1,7 +1,7 @@
 from random import randrange
 
 def generate_random(length):
-    characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabzdefghijklmnopqrstuvwxyz0123456789"
+    characters = "ABCDEF0123456789"
     token = ""
     for i in range(length):
         rand_num = randrange(0, len(characters))
